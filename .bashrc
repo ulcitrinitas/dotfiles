@@ -10,3 +10,4 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 complete -F _command doas
+eval "$(/home/uli/.local/bin/mise activate bash)"
